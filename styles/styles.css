@@ -1,0 +1,92 @@
+body{
+    background-color: lightgreen;
+    height: 100%;
+    padding: 1em;
+    box-sizing: border-box;
+}
+
+.container-1{
+    background-color: antiquewhite;
+    max-width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.chat-header{
+    background-color: dodgerblue;
+    padding: 0.5em;
+
+}
+
+.container-2{
+    background-color: whitesmoke;
+    padding: 0.5em;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 490px;
+}
+
+.chat-footer{
+    background-color: magenta;
+    display: flex;
+    padding: 0.5em;
+}
+
+.left-message{
+    margin: 0.5em;
+    background-color: lightpink;
+    padding: 1em;
+    /* border: 2px solid black; */
+    border-radius: 5em;
+    align-self: flex-start;
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.5);
+    width: 35%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+
+}
+
+.right-message{
+    margin: 0.5em;
+    background-color: lightskyblue;
+    padding: 1em;
+    /* border: 2px solid black; */
+    border-radius: 5em;
+    align-self: flex-end;
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.5);
+    width: 35%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+
+}
+
+img{
+    margin-top: 10px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.left-item{
+    display: flex;
+    flex-direction: row;
+}
+
+.right-item{
+    display: flex;
+    flex-direction: row-reverse;
+}
+textarea{
+    flex: 1;
+    resize: none;
+}
+
+button{
+    background-color: blueviolet;
+    color: black;
+    font-weight: bold;
+}
